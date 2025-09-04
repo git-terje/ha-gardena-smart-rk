@@ -12,10 +12,10 @@ Home Assistant custom integration (API v2 auth, WebSocket updates) for Gardena S
 
 ## Setup
 1. Create an app at Husqvarna Developer Portal and enable **Authentication API** and **GARDENA smart system API**.
-2. Use the following redirect_uri:
-  If "my" component is enabled: `https://my.home-assistant.io/redirect/oauth`
-  With HA cloud configured: `https://<cloud-remote-url>/auth/external/callback`
-  Without HA cloud configured: `http://<local-ip>:<port>/auth/external/callback`
+2. Use the following redirect_uri
+   If "my" component is enabled: `https://my.home-assistant.io/redirect/oauth`
+   With HA cloud configured: `https://<cloud-remote-url>/auth/external/callback`
+   Without HA cloud configured: `http://<local-ip>:<port>/auth/external/callback`
 3. In Home Assistant → Settings → Integrations → *Add Integration* → **Gardena Smart by RK** → enter your **Client ID** and **Client Secret**.
 
 ## Lovelace (gradient track example)
