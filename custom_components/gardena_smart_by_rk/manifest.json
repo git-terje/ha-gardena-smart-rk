@@ -1,7 +1,10 @@
 {
-  "name": "Gardena Smart by RK",
-  "render_readme": true,
   "domain": "gardena_smart_by_rk",
-  "country": ["global"],
-  "homeassistant": "2025.1.0"
+  "name": "Gardena Smart by RK",
+  "version": "0.0.1",
+  "documentation": "https://github.com/git-terje/ha-gardena-smart-rk",
+  "issue_tracker": "https://github.com/git-terje/ha-gardena-smart-rk/issues",
+  "requirements": [],
+  "codeowners": ["@git-terje"],
+  "iot_class": "cloud_push"
 }
