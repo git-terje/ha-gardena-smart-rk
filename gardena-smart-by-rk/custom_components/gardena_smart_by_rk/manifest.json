@@ -1,17 +1,10 @@
 {
   "domain": "gardena_smart_by_rk",
   "name": "Gardena Smart by RK",
-  "version": "0.9.0",
-  "documentation": "https://github.com/git-terje/gardena-smart-by-rk",
-  "issue_tracker": "https://github.com/git-terje/gardena-smart-by-rk/issues",
-  "iot_class": "cloud_push",
-  "codeowners": [
-    "@git-terje"
-  ],
+  "version": "0.0.1",
+  "documentation": "https://github.com/git-terje/ha-gardena-smart-rk",
+  "issue_tracker": "https://github.com/git-terje/ha-gardena-smart-rk/issues",
   "requirements": [],
-  "config_flow": true,
-  "dependencies": [
-    "http"
-  ],
-  "integration_type": "hub"
+  "codeowners": ["@git-terje"],
+  "iot_class": "cloud_push"
 }
