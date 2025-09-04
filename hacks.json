@@ -1,7 +1,0 @@
-{
-  "name": "Gardena Smart by RK",
-  "render_readme": true,
-  "domain": "gardena_smart_by_rk",
-  "country": ["global"],
-  "homeassistant": "2025.1.0"
-}
