@@ -1,0 +1,8 @@
+{
+  "name": "Gardena Smart by RK",
+  "content_in_root": false,
+  "domains": ["gardena_smart_by_rk"],
+  "homeassistant": "2024.1.0",
+  "iot_class": "cloud_push",
+  "render_readme": true
+}

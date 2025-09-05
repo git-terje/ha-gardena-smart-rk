@@ -1,0 +1,14 @@
+{
+  "config": {
+    "title": "Gardena Smart by RK",
+    "step": {
+      "user": {
+        "title": "Gardena Smart Setup",
+        "description": "Connect your Gardena Smart System account."
+      }
+    },
+    "abort": {
+      "already_configured": "This account is already configured."
+    }
+  }
+}
