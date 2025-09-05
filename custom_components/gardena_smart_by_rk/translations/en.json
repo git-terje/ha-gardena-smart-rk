@@ -1,24 +1,14 @@
 {
-  "title": "Gardena Smart by RK",
   "config": {
+    "title": "Gardena Smart by RK",
     "step": {
       "user": {
-        "title": "Gardena Smart by RK",
-        "description": "Enter your OAuth2 client credentials.",
-        "data": {
-          "client_id": "Client ID",
-          "client_secret": "Client Secret"
-        }
+        "title": "Gardena Smart Setup",
+        "description": "Connect your Gardena Smart System account."
       }
     },
-    "options": {
-      "step": {
-        "init": {
-          "data": {
-            "route_window_hours": "Hours to show in route"
-          }
-        }
-      }
+    "abort": {
+      "already_configured": "This account is already configured."
     }
   }
 }
